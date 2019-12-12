@@ -138,6 +138,9 @@
     <ClInclude Include="..\..\Modules.Library\Dmf_String.h">
       <Filter>Headers\Modules\Driver Patterns</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Modules.Library\Dmf_Registry.h">
+      <Filter>Headers\Modules\Driver Patterns</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Modules.Library\Dmf_Interface_ComponentFirmwareUpdate.h">
       <Filter>Headers\Interfaces</Filter>
     </ClInclude>
@@ -209,6 +212,9 @@
     <ClCompile Include="..\..\Modules.Library\Dmf_I2cTarget.c">
       <Filter>Modules\Targets</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Modules.Library\Dmf_Registry.c">
+      <Filter>Modules\Driver Patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MessageCompile Include="..\..\Modules.Library\Dmf_NotifyUserWithRequest_EventLog.mc">
@@ -233,13 +239,13 @@
     <None Include="..\..\Modules.Library\Dmf_ContinuousRequestTarget.md">
       <Filter>Documentation\Modules\Targets</Filter>
     </None>
+    <None Include="..\..\Modules.Library\Dmf_Registry.md">
+      <Filter>Documentation\Modules\Driver Patterns</Filter>
+    </None>
     <None Include="..\..\Modules.Library\Dmf_DeviceInterfaceTarget.md">
       <Filter>Documentation\Modules\Targets</Filter>
     </None>
     <None Include="..\..\Modules.Library\Dmf_HidTarget.md">
-      <Filter>Documentation\Modules\Targets</Filter>
-    </None>
-    <None Include="..\..\Modules.Library\Dmf_Registry.md">
       <Filter>Documentation\Modules\Targets</Filter>
     </None>
     <None Include="..\..\Modules.Library\Dmf_QueuedWorkItem.md">
